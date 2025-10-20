@@ -1,0 +1,2 @@
+# HW-7-4_DJANGO-Work-whith-ORM_PART-2
+HW-7-4-NETOLOGY-DJANGO-Work_whith_ORM_Part_2
