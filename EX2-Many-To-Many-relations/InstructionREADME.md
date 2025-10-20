@@ -133,3 +133,12 @@ python manage.py test articles -v 2
 - **Теги не отображаются**: проверьте, что в моделях у `Scope.article` стоит `related_name='scopes'`, а в шаблоне используется `article.scopes.all`.  
 - **Картинки не видны**: проверьте `MEDIA_URL`, `MEDIA_ROOT` и выдачу медиа в `urls.py`.  
 - **Импорт тест-раннера**: убедитесь, что путь указан верно, файл лежит в `articles/tests_runner.py`, а в `articles/` есть `__init__.py`.
+
+## Итоговый вид
+
+- **Контент**
+![КОНТЕН](https://github.com/VoldemarSoturum/HW-7-4_DJANGO-Work-whith-ORM_PART-2/blob/main/EX2-Many-To-Many-relations/For_Readme/ScreenShot.png)
+- **Админка**
+![АДМИНКА](https://github.com/VoldemarSoturum/HW-7-4_DJANGO-Work-whith-ORM_PART-2/blob/main/EX2-Many-To-Many-relations/For_Readme/ADMINKA_ORM-2.gif)
+- **Диаграмма БД (DBeaver)**
+![ДИАГРАММА_БД](https://github.com/VoldemarSoturum/HW-7-4_DJANGO-Work-whith-ORM_PART-2/blob/main/EX2-Many-To-Many-relations/For_Readme/netology_m2m_relations%20-%20public.png)
