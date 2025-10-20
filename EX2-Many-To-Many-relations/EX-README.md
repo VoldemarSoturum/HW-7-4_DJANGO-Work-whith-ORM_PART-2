@@ -2,11 +2,11 @@
 
 Есть небольшой новостной сайт.
 
-![Начальное состояние](./res/base.png)
+![Начальное состояние](https://github.com/netology-code/dj-homeworks/blob/video/2.2-databases-2/m2m-relations/res/base.png)
 
 Было решено к статьям добавить тематические резделы, к которым они относятся, и отображать их у каждой новости в виде списка тегов.
 
-![Вывод тегов разделов](./res/with_tags.png)
+![Вывод тегов разделов](https://github.com/netology-code/dj-homeworks/blob/video/2.2-databases-2/m2m-relations/res/with_tags.png)
 
 У каждой статьи может быть несколько разделов, но всегда один из них должен быть основным.
 В списке тегов он должен идти первым, потом все остальные в алфавитном порядке.
@@ -14,7 +14,7 @@
 В админке необходимо реализовать создание разделов и для страницы _Редактирование статьи_ добавить возможность указывать разделы.
 Необходимо также реализовать проверку на наличие одного и только одного основного раздела.
 
-![Админка](./res/admin.gif)
+![Админка](https://github.com/netology-code/dj-homeworks/blob/video/2.2-databases-2/m2m-relations/res/admin.gif)
 
 ## Примечание
 
@@ -127,3 +127,4 @@ python manage.py loaddata articles.json
 ```bash
 python manage.py runserver
 ```
+
