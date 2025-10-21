@@ -1,2 +1,15 @@
 # HW-7-4_DJANGO-Work-whith-ORM_PART-2
 HW-7-4-NETOLOGY-DJANGO-Work_whith_ORM_Part_2
+
+# Работа с ORM, часть 2
+
+Необходимо выполнить и предоставить на проверку следующие задачи:
+
+1. [Миграции](https://github.com/VoldemarSoturum/HW-7-4_DJANGO-Work-whith-ORM_PART-2/blob/main/EX1-ORM_Migrations/README.md),
+2. [Связь многие-ко-многим](https://github.com/VoldemarSoturum/HW-7-4_DJANGO-Work-whith-ORM_PART-2/blob/main/EX2-Many-To-Many-relations/EX-README.md).
+
+Присылать на проверку нужно сразу все обязательные задачи. Дополнительные задачи не влияют на получение зачёта.
+
+Работы должны соответствовать принятому [стилю оформления кода](https://github.com/netology-code/codestyle/tree/master/python).
+
+Любые вопросы по решению задач задавайте в чате учебной группы.
