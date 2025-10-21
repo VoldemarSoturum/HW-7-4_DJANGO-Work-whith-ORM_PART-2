@@ -5,8 +5,8 @@ HW-7-4-NETOLOGY-DJANGO-Work_whith_ORM_Part_2
 
 Необходимо выполнить и предоставить на проверку следующие задачи:
 
-1. [Миграции](https://github.com/VoldemarSoturum/HW-7-4_DJANGO-Work-whith-ORM_PART-2/blob/main/EX1-ORM_Migrations/README.md),
-2. [Связь многие-ко-многим](https://github.com/VoldemarSoturum/HW-7-4_DJANGO-Work-whith-ORM_PART-2/blob/main/EX2-Many-To-Many-relations/EX-README.md).
+1. [Миграции](./EX1-ORM_Migrations),
+2. [Связь многие-ко-многим](./EX2-Many-To-Many-relations).
 
 Присылать на проверку нужно сразу все обязательные задачи. Дополнительные задачи не влияют на получение зачёта.
 
