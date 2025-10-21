@@ -205,5 +205,8 @@ python manage.py createsuperuser
 - Итог на скриншотах 
 
 Вид итоговой страницы
+![итоговая страница](https://github.com/VoldemarSoturum/HW-7-4_DJANGO-Work-whith-ORM_PART-2/blob/main/EX1-ORM_Migrations/FOR_README/School-after-migrate.png) 
 
 Вид конечной диаграммы взят из DBeaver
+![Диаграмма](https://github.com/VoldemarSoturum/HW-7-4_DJANGO-Work-whith-ORM_PART-2/blob/main/EX1-ORM_Migrations/FOR_README/netology_orm_migrations-public.png)
+
