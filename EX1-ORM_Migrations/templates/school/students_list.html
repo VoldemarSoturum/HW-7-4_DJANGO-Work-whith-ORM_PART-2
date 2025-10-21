@@ -1,0 +1,28 @@
+{% extends "school/base.html" %}
+{% load static %}
+
+{% block title %}Список учеников{% endblock %}
+{% block content %}
+<div class="row">
+  <ul>
+   <!--Изначальная версия -->
+<!--  {% for student in object_list %}-->
+<!--    <li>{{ student.name }} {{ student.group }} <br> Преподаватель: {{ student.teacher.name }} {{ student.teacher.subject }}</li>-->
+<!--  {% endfor %}-->
+
+   <!-- Для отображения все преподователей закреплённых за учеником-->
+
+    {% for student in object_list %}
+  <li>
+    {{ student.name }} {{ student.group }}<br>
+    Преподаватели:
+    {% for teacher in student.teachers.all %}
+      {{ teacher.name }}: {{ teacher.subject }}{% if not forloop.last %}, {% endif %}
+    {% empty %}
+      —
+    {% endfor %}
+  </li>
+{% endfor %}
+  </ul>
+</div>
+{% endblock %}
